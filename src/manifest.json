@@ -1,15 +1,10 @@
 {
-  "name": "Chrome拡張の雛形です",
-  "description": "これから作るものにあわせて変更してください。",
-  "version": "0.1",
-  "manifest_version": 2,
-  "content_scripts": [{
-    "matches": ["https://github.com/waterada/chrome-ex-template/*"],
-    "js": ["jquery-2.2.0.min.js", "ChEx.js", "content_script.js"]
-  }],
-  "options_page": "options.html",
-  "permissions": [
-    "https://github.com/waterada/chrome-ex-template/*",
-    "storage"
-  ]
+    "name": "TweetImatePopupeer",
+    "description": "Twitterの画像をポップアップ表示する奴",
+    "version": "0.1",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "matches": ["https://*.twitter.com/*"],
+        "js": ["jquery-2.2.0.min.js", "ChEx.js", "content_script.js"]
+    }]
 }

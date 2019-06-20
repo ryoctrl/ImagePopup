@@ -1,22 +1,7 @@
-Chrome拡張の雛形
-========================
+# ImagePopup
 
-概要
------
+TweetDeckで画像をorigでオープンしたいがためだけのChrome拡張。
 
-これをダウンロードかcloneして、書き換えてください。
+Popupはうざいのでな買ったことに。
 
-
-各種ドキュメント/サンプルページ
------------------------------------
-
-- [使い方](http://qiita.com/waterada/private/f8a53677a46c131a3734)
-- [サンプルページ](https://waterada.github.io/chrome-ex-template/test/example.html)
-- [ChEx.js のドキュメント](ChEx-doc.md)
-- [単体テスト](https://waterada.github.io/chrome-ex-template/test/test.html)
-
-
-License
------------------------------------
-
-MIT
+TweetDeckで画像にカーソル合わせてCtrlキークリックでorigを新規タブで開きます。
